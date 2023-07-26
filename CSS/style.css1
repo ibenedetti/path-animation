@@ -1,0 +1,12 @@
+body {
+  background: orange !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css1.map */

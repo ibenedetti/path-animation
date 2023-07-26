@@ -1,0 +1,5 @@
+gsap.timeline()
+    .from(".btn",{opacity:0,stagger:0.3,duration:0.3,ease:"none"})
+    .to(".btn",{opacity:1,scale:1})
+    .to(".btn",{display:"none",stagger:0.1})
+    .to("#final",{display:"block",opacity:1,delay:0.3,ease:"power1"})
